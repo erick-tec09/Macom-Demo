@@ -1,0 +1,148 @@
+
+.button{
+    --uiButtonBgColor: var(--buttonBgColor, transparent);
+    --uiButtonPadding: var(--buttonPadding, 0);
+    --uiButtonBorder: var(--buttonBorder, none);
+    --uiButtonFontFamily: var(--buttonFontFamily, inherit);
+  
+    border: var(--uiButtonBorder);
+    padding: var(--uiButtonPadding);
+    background-color: var(--uiButtonBgColor);
+    font-family: var(--uiButtonFontFamily);
+  }
+  
+  /*
+  =====
+  LEVEL 1. CORE STYLES
+  =====
+  */
+  
+  .accordion__trigger{
+    display: block;
+    width: 100%;
+    position: relative;
+    text-align: start;  
+  }
+  
+  /* For Edge bug https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/4806035/ */
+  .accordion__panel[hidden]{
+    display: none;
+  }
+  
+  /*
+  =====
+  LEVEL 2. PRESENTATION STYLES
+  =====
+  */
+  
+  .accordion{
+    --uiAccordionTabBgColor: var(--accordionTabBgColor);
+    --uiAccordionTabTextColor: var(--accordionTabTextColor);
+    --uiAccordionTabFontSize: var(--accordionTabFontSize);
+    --uiAccordionTabFocusColor: var(--accordionTabFocusColor);
+    --uiAccordionToggleSize: var(--accordionToggleSize);
+    --uiAccordionToggleColor: var(--accordionToggleColor);
+    --uiAccordionMarginGroup: var(--accordionMarginGroup);
+    --uiAccordionContentBgColor: var(--accordionContentBgColor);
+    --uiAccordionContentFontSize: var(--accordionContentFontSize);  
+  }
+  
+  .accordion__group{
+    box-shadow: 
+      0 2px 2px 0 rgba(0, 0, 0, .14), 
+      0 1px 5px 0 rgba(0, 0, 0, .12), 
+      0 3px 1px -2px rgba(0, 0, 0, .2);
+    margin-bottom: var(--uiAccordionMarginGroup);
+  }
+  
+  .accordion__trigger{
+    position: relative;
+    padding: 1em calc(2em + var(--uiAccordionToggleSize) * 2) 1em 1.5em;
+    cursor: pointer;
+  
+    background-color: var(--uiAccordionTabBgColor);
+    font-size: var(--uiAccordionTabFontSize);
+    color: var(--uiAccordionTabTextColor);
+  }
+  
+  .accordion__trigger:focus{
+    outline: 5px solid var(--uiAccordionTabFocusColor)
+  }
+  
+  .accordion__trigger:after{
+    content: "";
+  
+    font-size: var(--uiAccordionToggleSize);
+    width: 1em;
+    height: 1em;
+    
+    border-right: .25em solid var(--uiAccordionToggleColor);
+    border-bottom: .25em solid var(--uiAccordionToggleColor);
+  
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    right: calc(var(--uiAccordionTabFontSize) * 1.5);
+    
+    -webkit-transform: translateY(-60%) rotate(45deg);
+    
+            transform: translateY(-60%) rotate(45deg);
+    transition: -webkit-transform .2s ease-out;
+    transition: transform .2s ease-out;
+    transition: transform .2s ease-out, -webkit-transform .2s ease-out;
+  }
+  
+  .accordion__trigger[aria-expanded="true"]:after{
+    -webkit-transform: translateY(-50%) rotate(-135deg);
+            transform: translateY(-50%) rotate(-135deg);
+  }
+  
+  .accordion__body{
+    padding: 1.5em;
+    font-size: var(--uiAccordionContentFontSize);
+    background-color: var(--uiAccordionContentBgColor);
+  }
+  
+  /*
+  =====
+  LEVEL 3. SETTINGS
+  =====
+  */
+  
+  .accordion{
+    --accordionTabBgColor: #0087CA;
+    --accordionTabTextColor: #fff;
+    --accordionTabFontSize: 2rem;
+    --accordionTabFocusColor: #C5CAE9;
+    --accordionToggleSize: .8rem;
+    --accordionToggleColor: #FFF;
+    --accordionContentBgColor: #FFF;
+    --accordionContentFontSize: 1.7rem;
+    --accordionMarginGroup: .8rem;
+  }
+
+  .accordion__body p {
+      margin-top: 10px;
+       text-align: justify;
+
+  }
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+
+
+ }
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+ }

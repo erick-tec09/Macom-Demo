@@ -1,0 +1,394 @@
+
+header{
+    width: 100%;
+    height: 110px;
+    border-bottom: 1px solid #55A79A;
+    position: fixed;
+    z-index: 100;
+    background: white;
+
+}
+div#inicio {
+    background: #F8F8F8;
+    BORDER-BOTTOM: 2PX SOLID #D32525;
+}
+.container-header{
+    padding: 10px 0px;
+    width: 100%;
+    max-width: 1220px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 75px;
+    margin: auto;
+    background: #F8F8F8;
+
+}
+.container-logo-title{
+    display: flex;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+.container-logo-title img{
+    width: 300px;
+    height: 70px;
+    display: none;
+}
+.container-logo-title h1{
+    font-size: 15PX;
+}
+.container-menu {
+    margin-right: 40px;
+
+}
+nav.menu {
+    display: flex;
+}
+.search {
+    padding-top: 10px;
+}
+.search input[type="search"] {
+    padding: 10px;
+}
+.search-agileinfo i.fa.fa-search {
+    font-size: 17px;
+    color: #fff;
+}
+.search button {
+    border: none;
+    top: 4px;
+    right: 11px;
+    width: 47px;
+    height: 43px;
+    outline: none;
+    box-shadow: none;
+    background: #D32525;
+    padding: 0;
+    border-radius: inherit;
+    -webkit-appearance: none;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    transition: .5s all;
+}
+.search button{
+    color: #fff;
+}
+.menu ul{
+    display: flex;
+}
+.menu > ul li{
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #868686;
+    padding: 20px 10px;
+    border: 1px solid transparent;
+    border-top: 4px solid transparent;
+    cursor: pointer;
+    transition: border 300ms;
+    position: relative;
+}
+.menu > ul li i{
+    color: #777;
+    margin-right: 5px;
+}
+.menu > ul li i a{
+    color: #777;
+    font-weight: 100;
+     margin-left: 5px;
+}
+.menu > ul > li:hover{
+    border: 1px solid #eeeeee;
+    border-bottom: 4px solid #D32525;
+ 
+}
+.menu ul li label,
+.menu ul li span{
+    color: #868686;
+}
+
+.menu ul li span{
+    font-size: 14px;
+    position: relative;
+    top: 4px;
+}
+.menu ul li label{
+    font-size: 22px;
+    position: relative;
+    top: -6px;
+}
+.menu ul li .icon2{
+    position: relative;
+    top: -2px;
+}
+
+/*Submenu*/
+
+.menu ul li ul{
+    width: 300px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    flex-direction: column;
+    border: 1px solid #eeeeee;
+    background: white;
+    border-bottom: 1px solid #D32525;
+    padding: 10px;
+    z-index: 3;
+    }
+.menu ul li ul li{
+    padding: 10px 20px;
+    border-bottom: 1px solid #eeeeee;
+    font-weight: 100;
+    font-size: 1em;
+    position: relative;
+}
+
+.menu ul li ul li:hover{
+    background: #FAFAFA;
+}
+
+.menu ul li ul li ul{
+    position: absolute;
+    left: 287px;
+    top: 0;
+}
+.icon-menu{
+    display: none;
+}
+main{
+    width: 100%;
+    max-width: 1220px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+article{
+    padding: 20px;
+}
+
+article h1{
+    font-size: 40px;
+    font-weight: 100;
+}
+article p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.container-bg{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.bg1{
+    width: 100%;
+    max-width: 300px;
+    height: 180px;
+    background-image: url(../image/bg1.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin: 10px;
+}
+.bg2{
+    width: 100%;
+    max-width: 300px;
+    height: 180px;
+    background-image: url(../image/bg2.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin: 10px;
+}
+.bg3{
+    width: 100%;
+    max-width: 300px;
+    height: 180px;
+    background-image: url(../image/bg3.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin: 10px;
+}
+.bg4{
+    width: 100%;
+    max-width: 300px;
+    height: 180px;
+    background-image: url(../image/bg4.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin: 10px;
+}
+
+
+    @media screen and (max-width: 1000px){
+    
+        header{
+            height: 60px;
+        }
+        
+        .container-header{
+    
+            height: 60px;
+        
+        }
+        .container-logo-title{
+            height: 60px;
+            margin-top: 10px;
+        }
+        
+        .container-logo-title img{
+            width: 300px;
+            height: 70px;
+        }
+        
+        .container-logo-title h1{
+            font-size: 20px;
+            margin-top: 6px;
+        }
+        
+        
+        .icon-menu{
+            display: block;
+            position: absolute;
+            right: 10px;
+            top: 20px;
+            font-size: 25px;
+
+            z-index: 1;
+        }
+        
+        body{
+            transition: all 300ms;
+        }
+        
+        .body2{
+            transform: translateX(-300px);
+        }
+        
+        nav.menu {
+           
+        }
+        .menu{
+            width: 300px;
+            height: 100vh;
+            position: absolute;
+            top: 62px;
+            left: -100%;
+            background: #F8F8F8;
+            z-index: 3;
+            display: flex;
+            flex-direction: column;
+            transition: all 0.6s;
+        }
+        .active-menu {
+            left: 0;
+        }
+        .menu ul {
+            flex-direction: column;
+        }
+        .menu ul li{
+            padding: 10px 20px;
+        }
+        
+        .menu ul li ul{
+            top: 0;
+            border-bottom: 1px solid transparent;
+            background: #F8F8F8
+        }
+        
+        .menu ul li:hover{
+            border: 1px solid transparent;
+            border-top: 4px solid transparent;
+        }
+        
+        .menu ul li ul{
+            width: 100%;
+            position: relative;
+            border: none;
+            padding: 2px; 
+        }
+        
+        .menu ul li ul li{
+            border-bottom: 1px solid rgb(37, 37, 37);
+        }
+        
+        .menu ul li ul li:hover{
+            background: rgb(230, 228, 228)
+        }
+        
+        .menu ul li ul li ul{
+            width: 100%;
+            position: relative;
+            left: 0px;
+            top: 6px;
+        }
+    
+        .search input[type="search"] {
+            padding: 10px;
+            WIDTH: 150PX;
+        }
+        .search {
+            padding-top: 10px;
+            MARGIN-LEFT: 20PX;
+        }
+        article{
+            text-align: center;
+        }
+    }
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    .search input[type="search"] {
+       
+        width: 100px;
+    }
+
+ }
+
+ @media (min-width: 1069px) { 
+
+    .search input[type="search"] {
+       
+        width: 150px;
+    }
+    
+}
+
+ /* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1100px) {
+    
+    .container-menu {
+        margin-right: 80px;
+
+    }
+
+    .menu > ul li i a {
+        font-size: 0.9em;
+    }
+    .search input[type="search"] {
+       
+        width: 180px;
+    }
+    
+}
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+
+ }

@@ -1,0 +1,497 @@
+.panel-body p{
+
+    width: 370px;
+    height: 200px;
+    text-align: justify;
+
+}
+.panel_fotos {
+    display: flex;
+}
+.galery_img{
+    width: 400px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.galery_img img {
+    width: 150px;
+    
+}
+.services_menu {
+    margin: 20px 0px;
+}
+.services_menu ul li{
+    list-style: none;
+    background: #008DC2;
+    color: #fff;
+    width: 300px;
+}
+
+.services_menu ul li a{
+   
+    color: #fff;
+}
+
+.ecommerce_dres-type ul li a:hover{
+
+    color: #008DC2;
+}
+
+
+
+  /* Default mode */
+  .tabbable-line > .nav-tabs {
+    border: none;
+    margin: 0px;
+  }
+  .tabbable-line > .nav-tabs > li {
+    margin-right: 2px;
+  }
+  .tabbable-line > .nav-tabs > li > a {
+    border: 0;
+    margin-right: 0;
+    color: #737373;
+  }
+  .tabbable-line > .nav-tabs > li > a > i {
+    color: #a6a6a6;
+  }
+  .tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+    border-bottom: 4px solid rgb(86, 195, 235);
+    position: relative;
+  }
+  .tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+    border: 0;
+    background: none !important;
+    color: #333333;
+  }
+  .tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+    color: #a6a6a6;
+  }
+  .tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+    margin-top: 0px;
+  }
+  .tabbable-line > .nav-tabs > li.active {
+    border-bottom: 4px solid #008DC2;
+    position: relative;
+  }
+  .tabbable-line > .nav-tabs > li.active > a {
+    border: 0;
+    color: #333333;
+  }
+  .tabbable-line > .nav-tabs > li.active > a > i {
+    color: #404040;
+  }
+  .tabbable-line > .tab-content {
+    margin-top: -3px;
+    background-color: #fff;
+    border: 0;
+    border-top: 1px solid #eee;
+    padding: 15px 0;
+  }
+  .portlet .tabbable-line > .tab-content {
+    padding-bottom: 0;
+  }
+  
+  /* Below tabs mode */
+  
+  .tabbable-line.tabs-below > .nav-tabs > li {
+    border-top: 4px solid transparent;
+  }
+  .tabbable-line.tabs-below > .nav-tabs > li > a {
+    margin-top: 0;
+  }
+  .tabbable-line.tabs-below > .nav-tabs > li:hover {
+    border-bottom: 0;
+    border-top: 4px solid #fbcdcf;
+  }
+  .tabbable-line.tabs-below > .nav-tabs > li.active {
+    margin-bottom: -2px;
+    border-bottom: 0;
+    border-top: 4px solid #008DC2;
+  }
+  .tabbable-line.tabs-below > .tab-content {
+    margin-top: -10px;
+    border-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+  }
+
+.services__fotos img{
+
+   
+  width: 150px;
+    margin: 4px;
+}
+
+.services__fotos img:hover{
+    border: 2px solid #008DC2;
+
+}
+  .active_service{
+      color: #008DC2;
+  }
+  
+#vert-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  #vert-nav .topmenu li.openmenu > a {
+    background: #008DC2;
+  }
+  #vert-nav .topmenu li.openmenu .sf {
+    -webkit-transform: rotate(180deg);
+  }
+  #vert-nav .topmenu li {
+    position: relative;
+  }
+  #vert-nav .topmenu li .sf {
+    position: absolute;
+    z-index: 9;
+    top: 1em;
+    right: 1em;
+    color: #378a65;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -webkit-backface-visibility: hidden;
+  }
+  #vert-nav .topmenu li:last-child a {
+    border-bottom: 0.2em solid #008DC2;
+  }
+  #vert-nav .topmenu li a {
+    margin: 0;
+    padding: 1em;
+    display: block;
+    width: 100%;
+    background: #008DC2;
+    color: #fff;
+    border-bottom: 0.1em solid #008DC2;
+  }
+  #vert-nav .topmenu li a:hover {
+    background: rgb(55, 166, 206);
+  }
+  #vert-nav .submenu {
+    display: none;
+  }
+  #vert-nav .submenu li:last-child a {
+    border-width: .1em;
+  }
+  #vert-nav .submenu li a {
+    padding-left: 2.6em;
+    background: rgb(5, 158, 214);
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  #vert-nav .submenu li a:hover {
+    background: rgb(11, 47, 60);
+  }
+
+ /*   ========================ESTILOS NOVEDADES MACOM MENU======================== */
+ .menu__sliderbar__container{
+
+   margin: 30px 0px;
+
+ }
+ .menu__sliderbar__container h3{
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.2em;
+  margin: 20px 0px;
+
+ }
+
+.menu-silderbar{
+  background: #008DC2;
+  width: 250px;
+  border-radius: 5px;
+}
+.menu-silderbar ul{
+
+  
+}
+.menu-silderbar ul li{
+
+  list-style: none;
+  padding: 15px 20px ;
+}
+.menu-silderbar ul li:hover{
+  background: rgb(4, 109, 148);
+}
+.menu-silderbar ul li i{
+
+   color: #fff;
+}
+.menu-silderbar ul li a{
+
+  padding-left: 5px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 0.9em;
+  width: 100%;
+}
+  /*   ========================ESTILOS NOVEDADES MACOM MENU======================== */
+/*   ========================ESTILOS NOVEDADES MACOM======================== */
+.noticias__imtes {
+  margin: 10px 0px;
+}
+.noticias__imtes{
+
+  display: flex;
+  flex-direction: row;
+  -webkit-box-shadow: 10px -1px 28px 3px rgba(237,234,237,1);
+-moz-box-shadow: 10px -1px 28px 3px rgba(237,234,237,1);
+box-shadow: 10px -1px 28px 3px rgba(237,234,237,1);
+}
+.noticias__imtes:hover{
+
+  border-radius: 23px 23px 23px 23px;
+-moz-border-radius: 23px 23px 23px 23px;
+-webkit-border-radius: 23px 23px 23px 23px;
+border: 2px solid #adadad;
+}
+.noticias__img{
+
+}
+.noticias__img img{
+  margin: 20px 20px;
+  width: 90px;
+  height: 100px;
+  border: 1px solid #ddd;
+}
+.noticias__img img:hover{
+  
+  border: 2px solid #008DC2;
+  
+}
+.noticias__text{
+
+}
+.noticias__text h2{
+  
+  font-size: 0.9em;
+  text-align: center;
+  margin: 20px 0px;
+  color: #008DC2;
+}
+.noticias__text p{
+  display: none;
+  font-size: 0.9em;
+  text-align: justify;
+
+}
+.noticias__text a{
+  display: block;
+  margin: 20px 20px;
+}
+.noticias__text a:hover{
+
+   font-weight: 700;
+   color: #008DC2;
+}
+
+ /*   ========================Proyectos======================= */
+ .contenedor__proyectos{
+   width: 100%;
+   height: 100%;
+ }
+ .title_proyectos h2{
+  margin: 20px  35px;
+  } 
+
+  .poryectos__contenedor{
+    margin: 10px auto;
+     width: 230px ;
+     height: 150px;
+
+     position: relative;
+     overflow: hidden;
+     border: 1px solid #62B5DE;
+     background: rosybrown;
+
+  }
+  Proyectos__items {
+   
+    HEIGHT: 10PX auto;
+
+}
+.contenedor_img {
+  width: 100%;
+  height: 100%;
+}
+
+  img.img_proyecto {
+    width: 100%;
+    height: 100%;
+}
+  .contendor_text{
+    width: 100%; 
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    left: 100%;
+    transition: all 0.5s; 
+    
+    
+  }
+
+
+  .contendor_text h3{
+
+    font-size: 1em;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.247);
+
+
+  }
+  .contendor_text p{
+    margin:10px 10px;
+      font-size: 0.5em;
+      text-align: justify;
+      color: #fff;
+  }
+  .contendor_text p strong{
+    
+    color: #008DC2;
+    font-weight: bold;
+  }
+  .contendor_text a{
+    display: block;
+    text-align: center;
+    margin: 10px 0px;
+    color: #fff;
+    font-size: 0.8em;
+     
+  }
+
+  .poryectos__contenedor:hover .contendor_text{
+    top: 0;
+    left: 0;
+  }
+
+
+.tab-pane p {
+
+  text-align: justify;
+}
+
+  /*   =======================Proyectos======================== */
+
+/*   ========================ESTILOS NOVEDADES MACOM======================== */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  .noticias__img img{
+    margin: 40px 20px;
+    width: 150px;
+    height: auto;
+  }
+  .noticias__text p{
+    display: block;
+    margin: 0px 20px;
+  
+  }
+  
+   
+ }
+ @media (min-width: 600px) { 
+   
+  .Proyectos__items {
+    display: flex;
+    flex-wrap: wrap;
+ 
+  
+    
+
+}
+  
+
+ }
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .noticias__text h2{
+  
+    font-size: 1.1em;
+    
+  }
+  .noticias__text p{
+   
+    font-size: 0.9em;
+  
+  }
+  .title__noticias a{
+
+    
+    margin-top: 20px;
+    display: block;
+
+  }
+    .panel-body p{
+        width: 600px;
+        height: 200px;
+    }
+    .panel_fotos {
+        display: flex;
+    }
+    .galery_img{
+        width: 700px;
+
+    } .contendor_text h3{
+
+      font-size: 1.4em;
+  
+    }
+    .contendor_text p{
+   
+        font-size: 0.7em;
+    }
+    .contendor_text a{
+      font-size: 0.1em;
+       
+    }
+    
+    
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  
+
+    .services_md_content {
+        display: none;
+    }
+
+    .services__fotos img{
+
+   
+      width: 170px;
+        margin: 4px;
+    }
+
+    /* Tabs panel */
+.tabbable-panel {
+    border:1px solid #eee;
+    padding: 10px;
+    margin-top: 60px;
+  }
+  
+  
+  
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+  .poryectos__contenedor {
+    width: 330px;
+    height: 180px;
+   
+}
+ }

@@ -1,0 +1,368 @@
+
+
+.top_nav{
+  
+    display: none;
+}
+
+.list_navtop{
+
+    float: right;
+    display: flex;
+    margin: 10px 10px;
+    
+}
+
+.list_navtop  li{
+
+    list-style: none;
+ }
+
+.list_navtop  a{
+
+   color: #fff;
+   margin: 0px 10px;
+}
+
+.header_aera .navbar-collapse .navbar-nav.navbar-right li.submenu ul {
+
+    background: rgb(247, 247, 247);
+}
+
+
+.navbar-brand{
+    height: 0;
+
+}
+.navbar-brand img{
+   
+    width: 140px;
+    position: absolute;
+    top: 0;
+
+}
+
+
+/* -----------------------MODALLLLL----------------------r */
+.header_aera{
+
+  
+ }
+ #ex1{
+
+    z-index: 1000;;
+ }
+ 
+ .affix {
+    z-index: 2;
+}
+.modal{
+
+    z-index: 10;
+}
+
+.blocker {
+    z-index: 1000000000;
+}
+.modal a.close-modal {
+    top: 12.5px;
+    right: 12.5px;
+   
+}
+.all_contact_info .contact_row .send_message .contact_box{
+    width: 240px;
+}
+/* -----------------------MODALLLLL----------------------r */
+
+/* -----------------------contenido----------------------r */
+
+.w3ls_dresses_grid_left_grid {
+    width: 230px;
+}
+
+
+.solderar__banner img{
+
+    width: 300px;
+    margin-left: auto;
+    border:  1px solid #0087CA;
+
+    padding: 7px;
+}
+
+.video-container{
+
+    
+}
+solderar__video{
+
+    width: 300px;
+}
+
+.video-container {
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.w3ls_dresses_grid_left_grid h2{
+
+    font-size: 1.4em;
+    padding: 20px 0px; 
+}
+
+.title_h2 h2{
+    font-size: 1.4em;
+    padding: 20px 0
+}
+
+.title_h2 h2 b{
+    font-weight: bold;
+    color:  #0087CA;
+}
+.soltion_tetx p{
+
+    font-size: 1.2em;
+    text-align: justify;
+    margin: 10px 0px;
+
+}
+
+.link-container ul {
+    
+    margin: 0;
+    padding: 0px;
+    margin-left: 10px;
+
+}
+
+.link-container ul li {
+    
+    list-style: none;
+    margin: 10px 0px;
+
+}
+.link-container ul li a{
+
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #676767;
+
+}
+
+.link-container ul li a:hover{
+
+    color:  #0087CA;
+    font-weight: 700;
+    font-size: 1.4em;
+
+}
+
+.Hardlock_images img{
+/* 
+    border:  1px solid #D32525;
+    padding: 7px;
+    margin: 7px 0px; */
+}
+
+.Hardlock_images img:hover{
+
+    border:  1px solid #0087CA;
+
+    margin: 7px 0px;
+}
+
+.Hardlock_caracteristicas_img img{
+
+
+    width: 270px;
+}
+.Hardlock_caracteristicas_img img:hover{
+
+
+    border:  1px solid #0087CA;
+    margin: 7px 0px;
+}
+
+.cetificacion_items p{
+
+    font-size: 1.3em;
+}
+
+.cetificacion_items a{
+
+    color: #0087CA;
+    font-size: 1.3em;
+}
+.fenix_container img{
+
+    width: 300px;
+    height: 100px;
+}
+.contenedor_fenix{
+
+    display: flex;
+    flex-direction: column;
+}
+.fenix_container{
+
+  
+}
+.fenix_container img{
+
+    width: 300px;
+    height: 100px;
+    margin: 3px 3px;
+    border: 2px solid #676767;
+}
+.fenix_container img:hover{
+
+    border:  2px solid #0087CA;
+
+   
+}
+.fenix_container2 img:hover{
+    border:  2px solid #0087CA;
+}
+.fenix_container2 img{
+    width: 300px;
+    height: 100px;
+    margin: 3px 3px;
+    border: 2px solid #676767;
+}
+.fenix_container2 {
+    display: flex;
+     flex-direction: column;
+}
+
+.catalogo_img{
+
+}
+.catalogo_img img{
+    
+    width: 200px;
+    border:  2px solid #0087CA;
+}
+.catalogo_text h3{
+
+    font-size: 1em;
+    margin: 10px 0px;
+    text-align: center;
+
+    width: 200px;
+}
+
+.catalogo_text h3:hover{
+
+    color:  #0087CA;
+    font-weight: 700;
+  
+}
+.contenedor_catalogo {
+    display: inline-block;
+}
+/* -----------------------contenido----------------------r */
+
+
+
+/* -----------------------estilos foofhe-----------------------r */
+.foolter_container{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.foolter_container img{
+
+    width: 130px;
+
+    border: 1px solid #0087CA;
+    padding: 7px;
+    margin: 10px 0px;
+}
+.solderar__banner img {
+    margin: 10px;
+}
+/* -----------------------estilos foofhe-----------------------r */
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+
+    .all_contact_info .contact_row .send_message .contact_box{
+        width: 300px;
+    }
+
+    .contenedor_catalogo {
+        display: inline-block;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+
+    .top_nav{
+  
+        display: block;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    .navbar-brand img{
+        width: 200px;
+    }
+
+    .title_h2{
+
+        margin-top: 30px;
+    }
+    
+    .solderar__banner img {
+        width: 300px;
+    }
+    .all_contact_info .contact_row .send_message .contact_box{
+        width: 440px;
+    }
+    .Hardlock_caracteristicas_img img{
+
+       
+        width: 370px;
+    }
+
+    .fenix_container img {
+        width: 600px;
+        height: 300px;
+        border: 2px solid #676767;
+    }
+    .fenix_container2 {
+        display: flex;
+        flex-direction: row;
+
+       
+    }
+    .Fenix_container {
+        width: 500px;
+    }
+    .contenedor_catalogo {
+        margin: 0px 10px;
+ }
+ .solderar__banner img {
+    margin: 10px;
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .Fenix_container {
+        width: 500px;
+    }
+    .contenedor_catalogo {
+        margin: 0px 10px;
+    }
+
+ }

@@ -1,0 +1,171 @@
+/* // ============================ CArd linia ============================ */
+
+.card-linia_container{
+
+}
+.card-linia-itms{
+    width: 250px;
+    height: 500px;
+     margin: 30px auto;
+     border: 1px solid rgb(129, 128, 128);
+}
+
+.card-linia-img{
+
+
+    padding: 2px 0px;
+}
+
+.card-lina-body h5{
+
+    font-size: 1.2em;
+    text-align: center;
+    margin: 10px 0px;
+    color: #0087CA;
+}
+
+.text-card p{
+
+    text-align:  justify;
+    margin: 10px 10px;
+    height: 250px;
+
+}
+.text-card a{
+ 
+    display: block;
+    width: 150px;
+    
+    background: #0087CA;
+    color: #fff;
+    padding: 10px 0px;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 0.9em;
+}
+.text-card a:hover{
+ 
+   
+      color: #0087CA;
+     background: none;
+      border:  1px solid #0087CA;
+
+}
+/* // ============================ CArd linia ============================ */
+
+
+.card__contendor{
+    perspective: 400;
+    -webkit-perspective: 400;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card_2d{
+    width:  120px;
+    height: 140px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .7s ease;
+    -webkit-box-shadow: -1px -1px 16px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 16px 2px rgba(0,0,0,0.75);
+    box-shadow: -1px -1px 16px 2px rgba(0,0,0,0.75);
+    margin: 10px;
+}
+.card_2d:hover{
+    transform: rotateY(180deg);
+}
+.card_front, .card_back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+.card_front img{
+    width:  120px;
+    height: 140px;
+}
+.card_back{
+    transform: rotateY(180deg);
+    border: 1px solid rgb(190, 190, 190);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+     justify-content: center;   
+}
+.card_back h3{
+   font-size: 1em;
+}
+.card_back a{
+   font-size: 1em;
+    margin-top: 10px;
+}
+.card_back a:hover{
+    font-weight: bold;
+ }
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 599px) { 
+    .card-linia-itms{
+        width: 430px;
+        height: 590px;
+         margin: 30px auto;
+         border: 1px solid rgb(129, 128, 128);
+    }
+    
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+    .card-linia_container{
+      
+        display: flex;
+    }
+    .card-linia-itms {
+        width: 430px;
+        height: 580px;
+        margin: 30px 20px;
+
+   
+ }
+ .text-card p{
+
+    height: 330px;
+   
+}
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    .card-linia-itms {
+        width: 430px;
+        height: 530px;
+        margin: 30px 20px;
+
+   
+ }
+
+    
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+    .card-linia-itms {
+        width: 430px;
+        height: 550px;
+        margin: 30px 20px;
+ }
+ .text-card p{
+
+    height: 230px;
+   
+}
+   
+   
+ }

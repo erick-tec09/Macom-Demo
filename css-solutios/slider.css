@@ -1,0 +1,268 @@
+.carousel-control.left{
+
+  background-image: none;
+}
+
+.carousel-control.right {
+  background-image: none;
+}
+
+.carosel-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 500px;
+  color: #fff;
+  margin-left: 50px;
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: 0px;
+  left: 90%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+  width: 100px;
+  z-index: 1;
+}
+
+
+.carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: #D32525;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  height: 180px;
+}
+
+
+/*  =======================Contenido Slider======================= */ 
+.carosel-caption h2{
+
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.carosel-caption p{
+
+  font-size: 0.7em;
+   width: 250px; 
+   text-align: justify;
+
+}
+
+
+.carosel-caption a{
+
+  font-size: 0.5em;
+
+}
+
+.carosel-caption a:hover {
+  color: #fff;
+  cursor: pointer;
+  
+}
+.btn-vert {
+  font-size: 0.7em;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  font-weight: bold;
+  padding: 5px 0px;
+  border: 1px solid #fff;;
+  border-radius: 2px;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.btn-vert:before {
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: #D32525;
+  z-index: -2;
+}
+
+.btn-vert:hover:before {
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+.btn-vert:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+
+/*  =======================Contenido Slider======================= */ 
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 550px) { 
+  .btn-vert {
+    font-size: 0.7em;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    font-weight: bold;
+    padding: 5px 0px;
+    border: 1px solid #fff;;
+    border-radius: 2px;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.1);
+  }
+
+  .carousel-indicators {
+
+    margin-left: -20%;
+}
+
+  .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    height: 200px;
+  }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .carousel-indicators {
+
+    margin-left: -20%;
+}
+  .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    height: 300px;
+  }
+  .carosel-caption {
+   
+    margin-left: 200px;
+    margin-top: 20px;
+  }
+  
+  .carosel-caption h2{
+
+    font-size: 2.5em;
+  }
+  
+  .carosel-caption p {
+    font-size: 1.2em;
+    width: 600px;
+
+}
+.carosel-caption a{
+
+ 
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .carousel-indicators {
+    margin-left: -15%;
+}
+  .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    height: 350px;
+  }
+  .carosel-caption {
+   
+    margin-left: 200px;
+    margin-top: 40px;
+  }
+  
+  .carosel-caption h2{
+
+    font-size: 3em;
+  }
+  
+  .carosel-caption p {
+    font-size: 1.2em;
+    width: 600px;
+
+}
+.carosel-caption a{
+
+
+  font-size: 1.3em;
+  margin-top: 10px;
+  display: block;
+  width: 200px;
+  text-align: center;
+ 
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+  .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    height: 400px;
+
+    
+  }
+  
+  .carosel-caption {
+   
+    margin-left: 200px;
+    margin-top: 50px;
+  }
+  
+  .carosel-caption h2{
+
+    font-size: 3em;
+  }
+  
+  .carosel-caption p {
+    font-size: 1.1em;
+    width: 800px;
+
+}
+.carosel-caption a{
+
+
+  font-size: 0.6em;
+  margin-top: 10px;
+  display: block;
+  width: 120px;
+
+  text-align: center;
+ 
+
+}
+
+}
