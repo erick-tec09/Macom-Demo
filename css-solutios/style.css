@@ -1295,12 +1295,12 @@ box-shadow: 11px 11px 13px -6px rgba(204,204,204,1);
 }
 .nbs-flexisel-nav-left {
     left: 0;
-    background: url(../images/img-sprite.png) no-repeat 5px center;
+    background: url(../../images/img-sprite.png) no-repeat 5px center;
     background-color:#D32525;
 }
 .nbs-flexisel-nav-right { 
 	right: 0%;
-    background: url(../images/img-sprite.png) no-repeat -20px center;
+    background: url(../../images/img-sprite.png) no-repeat -20px center;
     background-color: #D32525;
 }
 /*-- //about --*/
