@@ -1,11 +1,20 @@
-.carousel-control.left{
-
-  background-image: none;
+.bg_slider {
+  background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/climpek.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
-.carousel-control.right {
-  background-image: none;
+.carousel-control.left, .carousel-control.right{
+  background: rgba(28, 27, 27, 0.57);
+
+  width: 50px;
 }
+
+.carousel-control.left:hover, .carousel-control.right:hover{
+   background: #3DA3D6;
+}
+
+
 
 .carosel-caption {
   position: absolute;
@@ -231,7 +240,7 @@
     display: block;
     max-width: 100%;
     height: auto;
-    height: 400px;
+    height: 350px;
 
     
   }
