@@ -1,0 +1,23 @@
+/* ===========galeyyy =========== */
+
+.galrry__modal__img img{
+
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .elem{
+
+    display: inline-block;
+    
+    width: 20%;
+    border: 0px solid transparent;
+    border-bottom: none;
+    background: #fff;
+    padding: 10px;
+    height: auto;
+    background-clip: padding-box;
+ 
+}
+  

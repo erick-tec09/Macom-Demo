@@ -54,6 +54,21 @@
 
 
 
+<!--  =========================== Modal para imagenes =========================== -->
+    
+<script src="lib/jquery.js" type="text/javascript"></script>
+<script src="js/lc_lightbox.lite.js" type="text/javascript"></script>
+<link rel="stylesheet" href="css/lc_lightbox.css" />
+<link rel="stylesheet" href="css/lightbox.css">
+<!-- SKINS -->
+<link rel="stylesheet" href="skins/minimal.css" />
+<!-- ASSETS -->
+<script src="lib/AlloyFinger/alloy_finger.min.js" type="text/javascript"></script>
+
+<!--  =========================== Modal para imagenes =========================== -->
+
+<link rel="stylesheet" href="css/custom_modal_services.css">
+
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 <link rel="stylesheet" href="css/slider.css">
@@ -258,7 +273,7 @@
 								  <ul>
 										<li><i class="fas fa-angle-right"><a href="correctivo.html"> Mantto. Preventivo Correctivo</a></i> </li>
 										<li><i class="fas fa-angle-right"><a href="predictivo.html">Mantto. Predictivo</a></i> </li>
-										<li><i class="fas fa-angle-right"><a href="confiailidad.html">Ingeniería de Confiabilidad</a></i> </li>
+										<li><i class="fas fa-angle-right"><a href="confiabilidad.html">Ingeniería de Confiabilidad</a></i> </li>
 										<li><i class="fas fa-angle-right"><a href="destructivos.html">Ensayos no Destructivos</a></i> </li>
 										<li><i class="fas fa-angle-right"><a href="overhaul.html">Paradas de Planta y Overhaul</a></i> </li>
 								  </ul>
@@ -308,13 +323,29 @@ Los ensayos destructivos se definen como aquellos ensayos que se realizan a un m
 											
 											<div class="services__fotos">
 
-						
-													<img src="images/galery/otros/destructivos1.jpg" alt="">
-													<img src="images/galery/otros/destructivos2.jpg" alt="">
-													<img src="images/galery/otros/destructivos3.jpg" alt="">
-													<img src="images/galery/otros/destructivos4.jpg" alt="">
-													<img src="images/galery/otros/destructivos5.jpg" alt="">
-													<img src="images/galery/otros/destructivos6.jpg" alt="">
+
+													<a class="elem " href="images/galery/otros/destructivos1.jpg" title="Ensayos No Destructivos" data-lcl-txt="2017 -2018" data-lcl-author="Macom Sac" data-lcl-thumb="images/galery/otros/destructivos1.jpg">
+														<img src="images/galery/otros/destructivos1.jpg" alt="" class="" title="Click Para Ver" class="galrry__modal__img">
+												   </a>
+												   <a class="elem " href="images/galery/otros/destructivos2.jpg" title="Ensayos No Destructivos" data-lcl-txt="2017 -2018" data-lcl-author="Macom Sac" data-lcl-thumb="images/galery/otros/destructivos2.jpg">
+													<img src="images/galery/otros/destructivos3.jpg" alt="" class="" title="Click Para Ver" class="galrry__modal__img">
+												   </a>
+												   <a class="elem " href="images/galery/otros/destructivos3.jpg" title="Ensayos No Destructivos" data-lcl-txt="2017 -2018" data-lcl-author="Macom Sac" data-lcl-thumb="images/galery/otros/destructivos3.jpg">
+													<img src="images/galery/otros/destructivos3.jpg" alt="" class="" title="Click Para Ver" class="galrry__modal__img">
+												
+												   <a class="elem " href="images/galery/otros/destructivos4.jpg" title="Ensayos No Destructivos" data-lcl-txt="2017 -2018" data-lcl-author="Macom Sac" data-lcl-thumb="images/galery/otros/destructivos4.jpg">
+													<img src="images/galery/otros/destructivos4.jpg" alt="" class="" title="Click Para Ver" class="galrry__modal__img">
+												   </a>
+												   <a class="elem " href="images/galery/otros/destructivos5.jpg" title="Ensayos No Destructivos" data-lcl-txt="2017 -2018" data-lcl-author="Macom Sac" data-lcl-thumb="images/galery/otros/destructivos5.jpg">
+													<img src="images/galery/otros/destructivos5.jpg" alt="" class="" title="Click Para Ver" class="galrry__modal__img">
+												   </a>
+												   <a class="elem " href="images/galery/otros/destructivos6.jpg" title="Ensayos No Destructivos" data-lcl-txt="2017 -2018" data-lcl-author="Macom Sac" data-lcl-thumb="images/galery/otros/destructivos6.jpg">
+													<img src="images/galery/otros/destructivos6.jpg" alt="" class="" title="Click Para Ver" class="galrry__modal__img">
+											       </a>
+
+
+
+
 												
 
 
@@ -471,7 +502,25 @@ Los ensayos destructivos se definen como aquellos ensayos que se realizan a un m
 			$(window).on('load', function () {
 				$("#cover").fadeOut(1850);
 				});
-		 </script>
+	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function(e) {
+		   
+			// live handler
+			lc_lightbox('.elem', {
+				wrap_class: 'lcl_fade_oc',
+				gallery : true,	
+				thumb_attr: 'data-lcl-thumb', 
+				
+				skin: 'minimal',
+				radius: 0,
+				padding	: 0,
+				border_w: 0,
+			});	
+		
+		});
+	</script>
 </body>
 </body>
 </html>
